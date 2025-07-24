@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "task3": {
+      "commandName": "Project",
+      "commandLineArgs": "1,1,1,1,1,1 2,2,2,2,2,2 3,3,3,3,3,3",
+      "workingDirectory": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\bin\\Debug\\net8.0"
+    }
+  }
+}
