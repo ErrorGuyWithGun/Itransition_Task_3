@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|e:\\data research\\itransitionstude\\task 3\\task3\\task3\\inputhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|solutionrelative:task3\\inputhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|e:\\data research\\itransitionstude\\task 3\\task3\\task3\\probabilitytablegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|solutionrelative:task3\\probabilitytablegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|e:\\data research\\itransitionstude\\task 3\\task3\\task3\\fairrandomgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|solutionrelative:task3\\fairrandomgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|e:\\data research\\itransitionstude\\task 3\\task3\\task3\\probabilitycalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|solutionrelative:task3\\probabilitycalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|e:\\data research\\itransitionstude\\task 3\\task3\\task3\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +17,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|e:\\data research\\itransitionstude\\task 3\\task3\\task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|solutionrelative:task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|e:\\data research\\itransitionstude\\task 3\\task3\\task3\\inputhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|solutionrelative:task3\\inputhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|e:\\data research\\itransitionstude\\task 3\\task3\\task3\\probabilitytablegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|solutionrelative:task3\\probabilitytablegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|e:\\data research\\itransitionstude\\task 3\\task3\\task3\\probabilitycalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B851A0E8-3E80-4F8E-AF92-CD8550926823}|task3\\task3.csproj|solutionrelative:task3\\probabilitycalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ProbabilityTableGenerator.cs",
               "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\ProbabilityTableGenerator.cs",
               "RelativeDocumentMoniker": "task3\\ProbabilityTableGenerator.cs",
               "ToolTip": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\ProbabilityTableGenerator.cs",
               "RelativeToolTip": "task3\\ProbabilityTableGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T13:09:39.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ProbabilityCalculator.cs",
               "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\ProbabilityCalculator.cs",
               "RelativeDocumentMoniker": "task3\\ProbabilityCalculator.cs",
               "ToolTip": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\ProbabilityCalculator.cs",
               "RelativeToolTip": "task3\\ProbabilityCalculator.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T13:09:55.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Game.cs",
               "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\Game.cs",
               "RelativeDocumentMoniker": "task3\\Game.cs",
               "ToolTip": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\Game.cs",
               "RelativeToolTip": "task3\\Game.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAIwGQAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwGcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T12:44:36.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FairRandomGenerator.cs",
               "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\FairRandomGenerator.cs",
               "RelativeDocumentMoniker": "task3\\FairRandomGenerator.cs",
               "ToolTip": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\FairRandomGenerator.cs",
               "RelativeToolTip": "task3\\FairRandomGenerator.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T12:37:40.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Dice.cs",
               "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\Dice.cs",
               "RelativeDocumentMoniker": "task3\\Dice.cs",
               "ToolTip": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\Dice.cs",
               "RelativeToolTip": "task3\\Dice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T22:48:51.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\Program.cs",
               "RelativeDocumentMoniker": "task3\\Program.cs",
               "ToolTip": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\Program.cs",
               "RelativeToolTip": "task3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T18:38:55.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "InputHandle.cs",
               "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\InputHandle.cs",
               "RelativeDocumentMoniker": "task3\\InputHandle.cs",
               "ToolTip": "E:\\Data Research\\ItransitionStude\\task 3\\task3\\task3\\InputHandle.cs",
               "RelativeToolTip": "task3\\InputHandle.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCcAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T18:52:32.733Z",
               "EditorCaption": ""

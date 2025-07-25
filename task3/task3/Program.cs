@@ -1,5 +1,4 @@
-﻿using System;
-using task3;
+﻿using task3;
 
 class Program
 {

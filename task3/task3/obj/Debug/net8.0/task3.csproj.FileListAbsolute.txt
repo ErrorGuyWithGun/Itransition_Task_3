@@ -16,3 +16,4 @@ E:\Data Research\ItransitionStude\task 3\task3\task3\obj\Debug\net8.0\task3.pdb
 E:\Data Research\ItransitionStude\task 3\task3\task3\obj\Debug\net8.0\task3.genruntimeconfig.cache
 E:\Data Research\ItransitionStude\task 3\task3\task3\obj\Debug\net8.0\ref\task3.dll
 E:\Data Research\ItransitionStude\task 3\task3\task3\bin\Debug\net8.0\Spectre.Console.dll
+E:\Data Research\ItransitionStude\task 3\task3\task3\obj\Debug\net8.0\task3.sourcelink.json

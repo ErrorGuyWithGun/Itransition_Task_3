@@ -1,6 +1,5 @@
 ﻿using Spectre.Console;
 
-
 namespace task3
 {
     internal class ProbabilityTableGenerator

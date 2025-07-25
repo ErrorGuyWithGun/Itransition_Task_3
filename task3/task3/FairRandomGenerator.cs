@@ -1,5 +1,4 @@
-﻿using System;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Crypto.Macs;
@@ -10,24 +9,16 @@ namespace task3
     internal class FairRandomGenerator
     {
         private readonly RandomNumberGenerator _randomNumGen = RandomNumberGenerator.Create();
-
+        private readonly Random random = new Random();
         public (byte[] Key, int Number, string Hmac) GenerateNumber(int max)
         {
             byte[] key = new byte[32];
             _randomNumGen.GetBytes(key);
 
-            int number = GenerateUniformNumber(max);
+            int number = random.Next(max+1);
             string hmac = ComputeHmacSha3(number.ToString(), key);
 
             return (key, number, hmac);
-        }
-
-        private int GenerateUniformNumber(int max)
-        {
-            byte[] bytes = new byte[4];
-            _randomNumGen.GetBytes(bytes);
-            uint value = BitConverter.ToUInt32(bytes, 0);
-            return (int)(value % (uint)(max + 1));
         }
 
         public string ComputeHmacSha3(string message, byte[] key)
