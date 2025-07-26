@@ -5,7 +5,7 @@
         public List<int> Faces { get; }
         public Dice(List<int> faces)
         {
-            this.Faces = faces.ToList();
+            Faces = faces.ToList();
         }
 
         public int Roll(int index)
@@ -15,7 +15,7 @@
 
         public override string ToString() 
         {
-            return ($"[{string.Join(",", this.Faces)}]");
+            return $"[{string.Join(",", Faces)}]";
         }
     }
 }

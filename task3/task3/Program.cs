@@ -1,4 +1,5 @@
-﻿using task3;
+﻿using task3.Game;
+using task3.Input;
 
 class Program
 {

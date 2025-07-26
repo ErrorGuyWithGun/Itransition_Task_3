@@ -1,22 +1,32 @@
 ﻿using Spectre.Console;
 
-namespace task3
+namespace task3.ProbabilityTable
 {
     internal class ProbabilityTableGenerator
     {
         public Table GenerateTable(List<Dice> dice)
         {
             var table = new Table();
+            Title(table);
+            Column(table,dice);
+            Row(table,dice);
+            return table;
+        }
+
+        private void Title(Table table) {
             table.Title = new TableTitle("[red][bold]Probability of the win for the user[/][/]");
+        }
+
+        private void Column(Table table, List<Dice> dice){
             table.Border = TableBorder.Rounded;
             table.AddColumn(new TableColumn("[bold]User dice v[/]").Centered());
             foreach (var d in dice)
-            {
                 table.AddColumn(new TableColumn($"[blue][bold]{Markup.Escape(d.ToString())}[/][/]").Centered());
-            }
+        }
+        private void Row(Table table,List<Dice> dice) {
             for (int i = 0; i < dice.Count; i++)
             {
-                var cells = new List<string> { $"[blue]{ Markup.Escape(dice[i].ToString()) }[/]" };
+                var cells = new List<string> { $"[blue]{Markup.Escape(dice[i].ToString())}[/]" };
                 for (int j = 0; j < dice.Count; j++)
                 {
 
@@ -25,7 +35,6 @@ namespace task3
                 }
                 table.AddRow(cells.ToArray());
             }
-            return table;
         }
     }
 

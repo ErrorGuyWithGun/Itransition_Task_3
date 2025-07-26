@@ -1,4 +1,4 @@
-﻿namespace task3
+﻿namespace task3.ProbabilityTable
 {
     internal class ProbabilityCalculator
     {
@@ -12,7 +12,7 @@
                     if (face1 > face2) wins++;
                 }
             }
-            return (double)wins;
+            return wins;
         }
     }
 }
